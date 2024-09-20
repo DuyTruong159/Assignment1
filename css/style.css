@@ -1,0 +1,184 @@
+/** Reset **/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/** Global **/
+/** Font face **/
+@font-face {
+	font-family: "BestStories";
+	src: url("../font/BestStories.otf");
+}
+
+@font-face {
+	font-family: "MACCOS";
+	src: url("../font/MACCOS.otf");
+}
+
+a, li, p, h2, h3, h4, h5, h6 {
+	font-family: "Handjet", sans-serif;
+	letter-spacing: 2px;
+	line-height: 1.5;
+}
+
+h1 {
+	font-family: "BestStories", sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+	font-size: 30px;
+    line-height: 2;
+}
+
+.bruno {
+	font-family: "MACCOS", sans-serif;
+	font-weight: bold;
+}
+
+.gaga {
+	font-family: "BestStories", sans-serif;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+/** Header **/
+header {
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    padding: 10px;
+    height: 50px;
+    background-image: linear-gradient(#4ca6ff 20%, #e13232 90%);
+}
+
+header div {
+	height: 100%;
+	flex: 50%;
+	text-align: center;
+}
+
+header img {
+    height: 100%;
+    width: auto;
+}
+
+/** Master Section **/
+.master {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+
+.master iframe {
+	width: 100%;
+	height: 100vh;
+}
+
+/** Main **/
+main {
+	background-image: linear-gradient(rgb(3, 76, 111), rgb(23, 2, 3));
+	color: #efefef;
+	padding: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+/** Lyrics **/
+.lyrics {
+	width: 55%;
+}
+
+.lyrics div {
+	margin-bottom: 20px;
+}
+
+.lyrics .special {
+	background-color: rgba(252, 255, 58, 0.7);
+	margin-bottom: 20px;
+    border: 3px dotted #d40000;
+	border-radius: 20px;
+	color: #000000;
+}
+
+/** Album **/
+.album {
+	display: flex;
+	gap: 20px;
+	position: sticky;
+    top: 20px;
+}
+
+.album h1 {
+	font-size: 40px;
+    line-height: 2;
+}
+
+.album > div > div {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.album > div > div p, .album > div p {
+	font-family: "Roboto", sans-serif;
+}
+
+.album > div a {
+	color: #fcff3a;
+}
+
+.album > div > div img {
+	width: 50px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
+/** Footer **/
+footer {
+	font-family: "Poppins", sans-serif;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+    padding: 10px;
+    height: 50px;
+    background-image: linear-gradient(#4ca6ff 20%, #e13232 90%);
+}
